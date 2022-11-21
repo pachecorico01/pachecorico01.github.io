@@ -1,10 +1,11 @@
+/* En el cuerpo indicaremos el espacio entre el borde izquierdo, el tipo de letra, el color de esta y el fondo*/
 body {
     padding-left: 11em;
     font-family: Georgia, "Times New Roman",
           Times, serif;
     color: black;
     background-color: #44ab4d }
-    
+/* Dara forma a las tres entradas colocandolas a la izquierda*/   
   ul.navbar {
     list-style-type: none;
     padding: 0;
@@ -13,6 +14,7 @@ body {
     top: 2em;
     left: 1em;
     width: 9em }
+/*Tipo de letras que tendran los h1*/
   h1 {
     font-family: Helvetica, Geneva, Arial,
           SunSans-Regular, sans-serif }
@@ -21,6 +23,7 @@ body {
     margin: 0.5em 0;
     padding: 0.3em;
     border-right: 1em solid blue }
+/* Quitara el subrayado de los enlances y los pondra en color azul*/
   ul.navbar a {
     text-decoration: none }
   a:link {
