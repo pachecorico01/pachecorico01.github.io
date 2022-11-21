@@ -1,3 +1,5 @@
+/* Al entrar en la pestaña de lista se veran los animales almacenados en forma de tarjeta, siendo esto asi por este punto, quedara esa forma poniendo el fondo blanco, le dara forma de columna
+pondra los bordes redondeados y los resaltara en gris.*/
 .tarjeta{
   display:flex;
   background: white;
@@ -8,7 +10,7 @@
   box-shadow: 2px 2px 8px 4px #b1b1b194;
   border-radius:15px;
   font-family: sans-serif;
-  
+  /*separacion que tendra el titulo y el tipo de letra*/
 }
 .titulo{
   font-size: 24px;
